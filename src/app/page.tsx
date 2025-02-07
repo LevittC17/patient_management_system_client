@@ -1,6 +1,7 @@
 import { DashboardHeader } from "@/components/dashboard-header"
 import { StatsCards } from "@/components/stats-cards"
 import { Charts } from "@/components/charts"
+import { PatientList } from "@/components/patient-list"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <h1 className="text-2xl font-semibold">Dashboard</h1>
         <StatsCards />
         <Charts />
+        <PatientList />
       </div>
     </div>
   )
