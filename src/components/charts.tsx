@@ -1,3 +1,5 @@
+'use client'
+
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Tooltip, PieChart, Pie, Cell } from "recharts"
 import { MoreVertical } from "lucide-react"
 import { useTheme } from "next-themes"
